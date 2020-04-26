@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/history"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="@string/past_journeys"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/help"
+        android:icon="@drawable/ic_help_black_24dp"
+        android:title="@string/help_amp_faq"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/privacy_policy"
+        android:icon="@drawable/ic_security_black_24dp"
+        android:title="@string/privacy_policy"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/about"
+        app:showAsAction="ifRoom"/>
+</menu>

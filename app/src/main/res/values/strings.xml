@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Covid Tracer</string>
+    <string name="btn_login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="past_journeys">Past journeys</string>
+    <string name="settings">Settings</string>
+    <string name="help_amp_faq"><![CDATA[Help & FAQ]]></string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="about">About</string>
+    <string name="current_lockdown_status"><![CDATA[<Current Lockdown Status>]]></string>
+    <string name="destination">Destination</string>
 </resources>
