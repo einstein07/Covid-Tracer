@@ -42,6 +42,8 @@ public class NewJourneyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.layout_new_journey);
+
         date = (EditText) findViewById(R.id.date);
         destination = (EditText) findViewById(R.id.destination);
 

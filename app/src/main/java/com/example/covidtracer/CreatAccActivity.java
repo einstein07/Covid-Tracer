@@ -23,6 +23,7 @@ public class CreatAccActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.layout_create_account);
 
         txt_name =      findViewById(R.id.full_name);
         txt_username =  findViewById(R.id.username);

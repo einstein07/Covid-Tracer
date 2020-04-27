@@ -59,7 +59,9 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="15dp"
-            android:onClick="cancel"/>
+            android:onClick="cancel"
+            android:background="@drawable/my_button"
+            android:textColor="@color/quantum_white_text"/>
 
         <Button
             android:id="@+id/btn_save_new_journey"
@@ -71,7 +73,9 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="30dp"
-            android:onClick="save"/>
+            android:onClick="save"
+            android:background="@drawable/my_button"
+            android:textColor="@color/quantum_white_text"/>
 
     </LinearLayout>
 
