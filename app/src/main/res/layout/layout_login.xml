@@ -57,24 +57,43 @@
             android:background="@drawable/my_button"
             android:textColor="@color/quantum_white_text"
             />
+
         <EditText
             android:id="@+id/txt_forgot_password_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
             android:text="@string/forgot_password"
             android:textColor="@color/colorPrimaryDark"
             android:focusable="false"
+            android:background="@android:color/transparent"
             android:onClick="forgotPassword"/>
+        <Button
+            android:id="@+id/btn_fb_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_with_facebook"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:onClick="login"
+            android:background="@drawable/fb_login_button"
+
+            android:textColor="@color/colorAccent"
+            />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
+                android:layout_marginRight="5dp"
                 android:text="@string/don_t_have_an_account"
+                android:background="@android:color/transparent"
                 android:focusable="false"
 
                 />
@@ -85,6 +104,7 @@
                 android:text="@string/create_one"
                 android:textColor="@color/colorPrimaryDark"
                 android:focusable="false"
+                android:background="@android:color/transparent"
                 android:onClick="createAccount"/>
         </LinearLayout>
 

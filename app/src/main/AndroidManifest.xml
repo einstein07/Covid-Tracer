@@ -24,6 +24,9 @@
         <activity
             android:name=".NewJourneyActivity"
             android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".JourneyDetailsActivity"
+            android:parentActivityName=".HomeActivity" />
     </application>
 
 </manifest>

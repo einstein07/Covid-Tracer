@@ -22,4 +22,9 @@
     <string name="this_field_is_required">(This field is required!)</string>
     <string name="create_one">Create one!</string>
     <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="date">Date:</string>
+    <string name="journey_details">Journey Details</string>
+    <string name="start">Start</string>
+    <string name="dest">Dest:</string>
 </resources>
