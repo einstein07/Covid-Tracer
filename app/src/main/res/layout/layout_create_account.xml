@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context=".CreatAccActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,6 +18,16 @@
             android:textStyle="bold"
             android:layout_margin="30dp"
             android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/warning_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/this_field_is_required"
+            android:textColor="@color/colorRed"
+            android:layout_marginStart="30dp"
+            android:focusable="false"
+
+            />
         <EditText
             android:id="@+id/full_name"
             android:layout_width="match_parent"
@@ -25,6 +37,16 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/warning_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/this_field_is_required"
+            android:textColor="@color/colorRed"
+            android:layout_marginStart="30dp"
+            android:focusable="false"
+
+            />
         <EditText
             android:id="@+id/username"
             android:layout_width="match_parent"
@@ -32,10 +54,20 @@
             android:hint="Enter username"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="5dp"/>
 
+        <TextView
+            android:id="@+id/warning_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/this_field_is_required"
+            android:textColor="@color/colorRed"
+            android:layout_marginStart="30dp"
+            android:focusable="false"
+
+            />
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/email_create_acc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="E-mail"
@@ -43,7 +75,19 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/warning_password2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/this_field_is_required"
+            android:textColor="@color/colorRed"
+            android:layout_marginStart="30dp"
+            android:focusable="false"
+
+            />
         <EditText
+            android:id="@+id/password1_create_acc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
@@ -51,7 +95,18 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/warning_password1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/this_field_is_required"
+            android:textColor="@color/colorRed"
+            android:layout_marginStart="30dp"
+            android:focusable="false"
+
+            />
         <EditText
+            android:id="@+id/password2_create_acc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Confirm password"
@@ -76,14 +131,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Already a member?"/>
+                android:text="Already a member?"
+                android:focusable="false"
+                />
             <EditText
                 android:id="@+id/sign_in_create"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Login"
                 android:textColor="@color/colorPrimaryDark"
-                android:onClick="loginScreen"/>
+                android:onClick="loginScreen"
+                android:focusable="false"
+                />
         </LinearLayout>
 
     </LinearLayout>

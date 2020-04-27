@@ -11,4 +11,15 @@
     <string name="about">About</string>
     <string name="current_lockdown_status"><![CDATA[<Current Lockdown Status>]]></string>
     <string name="destination">Destination</string>
+    <string name="select_date">Select date</string>
+    <string name="create_new_journey">Create new journey</string>
+    <string name="set_time">Set time</string>
+    <string name="set_destination">Set destination</string>
+    <string name="api_key">AIzaSyCGBljRVzeqSlFskrxRcDhoax2j9084t6A</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="passwords_don_t_match">(Passwords don\'t match!)</string>
+    <string name="this_field_is_required">(This field is required!)</string>
+    <string name="create_one">Create one!</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
 </resources>
