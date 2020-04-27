@@ -36,6 +36,15 @@
         android:hint="@string/select_date"/>
 
     <EditText
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/set_destination"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
         android:id="@+id/destination"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

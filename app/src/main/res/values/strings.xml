@@ -27,4 +27,9 @@
     <string name="journey_details">Journey Details</string>
     <string name="start">Start</string>
     <string name="dest">Dest:</string>
+    <string name="current_password">Current Password</string>
+    <string name="home">Home</string>
+    <string name="send_email">Send email</string>
+    <string name="account_settings">Account settings</string>
+    <string name="logout">Logout</string>
 </resources>

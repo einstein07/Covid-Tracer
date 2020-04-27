@@ -45,4 +45,28 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), NewJourneyActivity.class);
         startActivity(intent);
     }
+
+    public void journeyDetails(MenuItem item) {
+        Intent intent = new Intent(getApplicationContext(), JourneyDetailsActivity.class);
+        startActivity(intent);
+    }
+
+    public void changePassword(MenuItem item) {
+        Intent intent = new Intent(getApplicationContext(), ChangePassword.class);
+        startActivity(intent);
+    }
+
+    public void privacySettings(MenuItem item) {
+
+    }
+
+    public void about(MenuItem item) {
+        Intent intent = new Intent(getApplicationContext(), AboutActivity.class);
+        startActivity(intent);
+    }
+
+    public void logout(MenuItem item) {
+        Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+        startActivity(intent);
+    }
 }

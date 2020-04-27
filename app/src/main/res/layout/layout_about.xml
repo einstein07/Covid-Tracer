@@ -6,37 +6,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/title_login3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="60dp"
-        android:text="@string/app_name"
-        android:textColor="@color/colorAccent"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/txt_About"
-        android:layout_width="308dp"
-        android:layout_height="498dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="40dp"
-        android:background="@color/colorRed"
-        android:backgroundTint="@color/colorAccent"
-        android:ems="10"
-        android:gravity="start|top"
-        android:hint="@string/about"
-        android:inputType="textMultiLine"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_login3"
-        app:layout_constraintVertical_bias="0.577" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title_login3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="@string/app_name"
+            android:textColor="@color/colorAccent"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="60dp"/>
+        <EditText
+            android:id="@+id/about_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABOUT\n\nCovid Tracer version 1.0.\nDesigned and implemented by four UCT students as a tool to curb spread of coronavirus."
+            android:inputType="none"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_home_abt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:onClick="goHome"
+            android:background="@drawable/my_button"
+            android:textColor="@color/quantum_white_text"
+            />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

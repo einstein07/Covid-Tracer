@@ -4,12 +4,23 @@
     <item android:id="@+id/history"
         android:icon="@drawable/ic_history_black_24dp"
         android:title="@string/past_journeys"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom"
+        android:onClick="journeyDetails"/>
 
     <item android:id="@+id/settings"
         android:icon="@drawable/ic_settings_black_24dp"
         android:title="@string/settings"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/change_account_settings"
+                android:title="@string/account_settings"
+                android:onClick="changePassword"/>
+            <item android:id="@+id/privacy_settings"
+                android:title="Privacy settings"
+                android:onClick="privacySettings"/>
+
+        </menu>
+    </item>
 
     <item android:id="@+id/help"
         android:icon="@drawable/ic_help_black_24dp"
@@ -24,5 +35,9 @@
     <item android:id="@+id/about"
         android:icon="@drawable/ic_info_black_24dp"
         android:title="@string/about"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom"
+        android:onClick="about"/>
+    <item android:id="@+id/logout"
+        android:title="@string/logout"
+        android:onClick="logout"/>
 </menu>
